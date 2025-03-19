@@ -42,12 +42,12 @@ function Experience() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {experiences.map((experience) => (
+              {experiences.map((experiencess) => (
                 // <GlowCard
                 //   key={experience.id}
                 //   identifier={`experience-${experience.id}`}
                 // >
-                <div className="p-3 relative" key={experience.id}>
+                <div className="p-3 relative" key={experiencess.id}>
                   <Image
                     src="/blur-23.svg"
                     alt="Hero"
@@ -57,7 +57,7 @@ function Experience() {
                   />
                   <div className="flex justify-center">
                     <p className="text-xs sm:text-lg text-[#16f2b3]">
-                      {experience.duration}
+                      {experiencess.duration}
                     </p>
                   </div>
                   <div className="flex items-center gap-x-8 px-3 py-5">
@@ -66,10 +66,10 @@ function Experience() {
                     </div>
                     <div>
                       <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                        {experience.title}
+                        {experiencess.title}
                       </p>
                       <p className="text-sm sm:text-base">
-                        {experience.company}
+                        {experiencess.company}
                       </p>
                     </div>
                   </div>
