@@ -1,6 +1,6 @@
 // @flow strict
 
-// import { experiences } from "@/utils/data/experience";
+import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 // import { BsPersonWorkspace } from "react-icons/bs";
 // import experience from "../../../assets/lottie/code.json";
@@ -40,7 +40,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <div className="flex flex-col gap-6">
               {experiences.map((experiencess) => (
                 // <GlowCard
@@ -62,7 +62,7 @@ function Experience() {
                   </div>
                   <div className="flex items-center gap-x-8 px-3 py-5">
                     <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                      <BsPersonWorkspace size={36} />
+                      {/* <BsPersonWorkspace size={36} /> */}
                     </div>
                     <div>
                       <p className="text-base sm:text-xl mb-2 font-medium uppercase">
@@ -77,7 +77,7 @@ function Experience() {
                 // </GlowCard>
               ))}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
