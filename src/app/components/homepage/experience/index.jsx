@@ -1,11 +1,11 @@
 // @flow strict
 
-import { experiences } from "@/utils/data/experience";
+// import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
-import { BsPersonWorkspace } from "react-icons/bs";
-import experience from "../../../assets/lottie/code.json";
-import AnimationLottie from "../../helper/animation-lottie";
-import GlowCard from "../../helper/glow-card";
+// import { BsPersonWorkspace } from "react-icons/bs";
+// import experience from "../../../assets/lottie/code.json";
+// import AnimationLottie from "../../helper/animation-lottie";
+// import GlowCard from "../../helper/glow-card";
 
 function Experience() {
   return (
@@ -40,7 +40,7 @@ function Experience() {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="flex flex-col gap-6">
               {experiences.map((experiencess) => (
                 // <GlowCard
@@ -77,7 +77,7 @@ function Experience() {
                 // </GlowCard>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
