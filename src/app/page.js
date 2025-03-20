@@ -29,7 +29,6 @@ export default function Home() {
   return (
     // <div suppressHydrationWarning>
     <div>
-      <h1>testingg</h1>
       <HeroSection />
       <AboutSection />
       <Experience />
